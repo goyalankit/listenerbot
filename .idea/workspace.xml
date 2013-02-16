@@ -45,7 +45,7 @@
     <file path="/a.dummy" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361002089970" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361015143234" ignored="false" />
     <file path="$PROJECT_DIR$/../hoppr_app/AndroidManifest.xml" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1360995848027" ignored="false" />
-    <file path="/fragment.java" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361012428759" ignored="false" />
+    <file path="/fragment.java" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361033284863" ignored="false" />
     <file path="/Dummy.txt" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361010323792" ignored="false" />
     <file path="$PROJECT_DIR$/../hoppr_app/src/com/google/android/gcm/GCMBaseIntentService.java" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361001261471" ignored="false" />
     <file path="/GCMIntentService.java" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361032651070" ignored="false" />
@@ -114,13 +114,13 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/listener_bot/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="49" selection-start="3577" selection-end="3577" vertical-scroll-proportion="0.39252338">
+            <state line="50" column="36" selection-start="1442" selection-end="1442" vertical-scroll-proportion="-2.0841122">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1286#1294#0" expanded="true" />
-                <element signature="e#2826#3288#0" expanded="true" />
-                <element signature="e#3225#3233#0" expanded="true" />
-                <element signature="e#3281#3282#0" expanded="true" />
+                <element signature="e#2589#3051#0" expanded="true" />
+                <element signature="e#2988#2996#0" expanded="true" />
+                <element signature="e#3044#3045#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,7 +189,7 @@
       <file leaf-file-name="GCMIntentService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/listener_bot/GCMIntentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="48" selection-start="5022" selection-end="5022" vertical-scroll-proportion="0.0">
+            <state line="115" column="21" selection-start="4694" selection-end="4699" vertical-scroll-proportion="-10.6">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4174#4189#0" expanded="true" />
@@ -380,7 +380,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -607,7 +607,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.64220184" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.56880736" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43119267" sideWeight="0.493517" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -741,7 +741,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/listener_bot/GCMIntentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="48" selection-start="5022" selection-end="5022" vertical-scroll-proportion="0.0">
+        <state line="115" column="21" selection-start="4694" selection-end="4699" vertical-scroll-proportion="-10.6">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4174#4189#0" expanded="true" />
@@ -751,13 +751,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/listener_bot/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="49" selection-start="3577" selection-end="3577" vertical-scroll-proportion="0.39252338">
+        <state line="50" column="36" selection-start="1442" selection-end="1442" vertical-scroll-proportion="-2.0841122">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1286#1294#0" expanded="true" />
-            <element signature="e#2826#3288#0" expanded="true" />
-            <element signature="e#3225#3233#0" expanded="true" />
-            <element signature="e#3281#3282#0" expanded="true" />
+            <element signature="e#2589#3051#0" expanded="true" />
+            <element signature="e#2988#2996#0" expanded="true" />
+            <element signature="e#3044#3045#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -768,10 +768,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>listener.bot</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

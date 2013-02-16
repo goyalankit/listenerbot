@@ -44,13 +44,6 @@ public class MainActivity extends Activity {
 
         List<String> messages = new ArrayList<String>();
 
-        if(extras != null){
-            message = getIntent().getExtras().get("message").toString();
-            if(message!= null){
-               // messages.add(message);
-                writeToCache(message);
-            }
-        }
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
 
         int j = 0;
