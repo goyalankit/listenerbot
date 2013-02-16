@@ -48,11 +48,11 @@
     <file path="/fragment.java" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361012428759" ignored="false" />
     <file path="/Dummy.txt" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361010323792" ignored="false" />
     <file path="$PROJECT_DIR$/../hoppr_app/src/com/google/android/gcm/GCMBaseIntentService.java" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361001261471" ignored="false" />
-    <file path="/GCMIntentService.java" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361019533389" ignored="false" />
+    <file path="/GCMIntentService.java" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361032651070" ignored="false" />
     <file path="$PROJECT_DIR$/../hoppr_app/src/com/y2cf/hoppr/gcm/GCMIntentService.java" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361002367157" ignored="false" />
     <file path="/notification.xml" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361003238468" ignored="false" />
     <file path="/main.xml" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361014716269" ignored="false" />
-    <file path="/MainActivity.java" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361023604943" ignored="false" />
+    <file path="/MainActivity.java" changelist="e9f6379b-207a-4aa8-910d-dff73c99dbde" time="1361032630575" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/listener_bot/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="58" selection-start="3586" selection-end="3586" vertical-scroll-proportion="0.6766169">
+            <state line="110" column="49" selection-start="3577" selection-end="3577" vertical-scroll-proportion="0.39252338">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1286#1294#0" expanded="true" />
@@ -189,10 +189,10 @@
       <file leaf-file-name="GCMIntentService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/listener_bot/GCMIntentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="39" selection-start="3557" selection-end="3557" vertical-scroll-proportion="0.0">
+            <state line="121" column="48" selection-start="5022" selection-end="5022" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4022#4037#0" expanded="true" />
+                <element signature="e#4174#4189#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -288,7 +288,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -377,33 +376,35 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/example/listener_bot" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="settings.xslt" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/android-support-v4.jar!/" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="HT2A5LY08177" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="DEBUGGABLE_DEVICE" value="HT2A5LY08177" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="DEBUGGABLE_PROCESS" value="com.example.listener_bot" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="MyAvd1" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/example/listener_bot" />
+    <property name="options.lastSelected" value="settings.xslt" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="HT2A5LY08177" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="TODO_SCOPE" value="Project Files" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -607,7 +608,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.64220184" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43119267" sideWeight="0.493517" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43119267" sideWeight="0.493517" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -740,17 +741,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/listener_bot/GCMIntentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="39" selection-start="3557" selection-end="3557" vertical-scroll-proportion="0.0">
+        <state line="121" column="48" selection-start="5022" selection-end="5022" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4022#4037#0" expanded="true" />
+            <element signature="e#4174#4189#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/listener_bot/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="58" selection-start="3586" selection-end="3586" vertical-scroll-proportion="0.6766169">
+        <state line="110" column="49" selection-start="3577" selection-end="3577" vertical-scroll-proportion="0.39252338">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1286#1294#0" expanded="true" />

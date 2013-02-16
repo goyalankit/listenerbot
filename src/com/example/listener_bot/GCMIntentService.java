@@ -5,6 +5,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 import android.util.Log;
@@ -22,10 +23,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class GCMIntentService extends GCMBaseIntentService {
 
-    private static void generateNotification(Context context, String message, Intent receivedIntent) {
+    public static final String PREFS_NAME = "MyPrefsFile";
+    private int count;
+
+    private void generateNotification(Context context, String message, Intent receivedIntent) {
         message = receivedIntent.getExtras().get("data").toString();
+
+        writeToCache(message);
 
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(context)
@@ -104,4 +112,18 @@ public class GCMIntentService extends GCMBaseIntentService {
             // TODO Auto-generated catch block
         }
     }
+
+    public void writeToCache(String message){
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+        count =settings.getInt("number_of_entries",0);
+        SharedPreferences.Editor editor = settings.edit();
+
+        if(message!=null && message!="NO_MESSAGE" && message != "no messages")
+            count = count + 1;
+        editor.putInt("number_of_entries",count);
+        editor.putString("message"+count,message);
+        editor.commit();
+    }
+
+
 }
